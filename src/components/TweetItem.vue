@@ -27,19 +27,18 @@
             <font-awesome-icon icon="fa-solid fa-comment p-2 mr-1 rounded-full" />
             <span class="ml-1">{{ tweet.stats.comments.length }}</span>
           </div>
-					<div class="text-gray-500 hover:text-green-500">
+          <div class="text-gray-500 hover:text-green-500">
             <font-awesome-icon icon="fa-solid fa-retweet p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500" />
-						<span class="ml-1">{{ tweet.stats.retweets.length }}</span>
-					</div>
-					<div class="text-gray-500 hover:text-green-500">
+            <span class="ml-1">{{ tweet.stats.retweets.length }}</span>
+          </div>
+          <div class="text-gray-500 hover:text-green-500">
             <font-awesome-icon icon="fa-solid fa-heart p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500" />
-						<span class="ml-1">{{ tweet.stats.likes.length }}</span>
-					</div>
-					<div class="text-gray-500 hover:text-green-500">
+            <span class="ml-1">{{ tweet.stats.likes.length }}</span>
+          </div>
+          <div class="text-gray-500 hover:text-green-500">
             <font-awesome-icon icon="fa-solid fa-share p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500" />
-					</div>
-				</div>
-
+          </div>
+        </div>
       </section>
     </router-link>
   </article>
