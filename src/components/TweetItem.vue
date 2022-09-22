@@ -23,10 +23,10 @@
         </figure>
 
         <div class="mt-2 flex items-center justify-between">
-					<div class="text-gray-500 hover:text-green-500">
+          <div class="text-gray-500 hover:text-green-500">
             <font-awesome-icon icon="fa-solid fa-comment p-2 mr-1 rounded-full" />
-						<span class="ml-1">{{ tweet.stats.comments.length }}</span>
-					</div>
+            <span class="ml-1">{{ tweet.stats.comments.length }}</span>
+          </div>
 					<div class="text-gray-500 hover:text-green-500">
             <font-awesome-icon icon="fa-solid fa-retweet p-2 mr-1 rounded-full hover:bg-green-900 hover:text-green-500" />
 						<span class="ml-1">{{ tweet.stats.retweets.length }}</span>
